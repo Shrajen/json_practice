@@ -1,0 +1,51 @@
+{
+    "boot": [{
+            "id": 1,
+            "type": "Nike futsal boot",
+            " Price": 2000
+        },
+        {
+            "id": 2,
+            "type": "Spectra futsal boot",
+            " Price": 2500
+        },
+        {
+            "id": 3,
+            "type": "Adidas futsal boot",
+            " Price": 2500
+        }
+    ],
+    "ball": [{
+            "id": 1,
+            "type": "Nike futsal ball",
+            " Price": 2000
+        },
+        {
+            "id": 2,
+            "type": "Spectra futsal ball",
+            " Price": 2500
+        },
+        {
+            "id": 3,
+            "type": "Adidas futsal ball",
+            " Price": 2500
+        }
+    ],
+    "jersey": [{
+            "id": 1,
+            "type": "Nike jersey",
+            " Price": 2000
+        },
+        {
+            "id": 2,
+            "type": "Spectra jersey",
+            " Price": 2500
+        },
+        {
+            "id": 3,
+            "type": "Adidas jersey",
+            " Price": 2500
+        }
+    ]
+
+}

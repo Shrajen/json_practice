@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        productname = [{
+            "id": 1,
+            "Product": "boot",
+            "Price": 2000,
+            "Rating": 3.5,
+
+        }, {
+            "id": 2,
+            "Product": "futsalball",
+            "Price": 1000,
+            "Rating": 4
+        }, {
+            "id": 3,
+            "Product": "cricketball",
+            "Price": 150,
+            "Rating": 3.5
+        }, {
+            "id": 4,
+            "Product": "dumbell",
+            "Price": 2000,
+            "Rating": 3.5,
+        }]
+
+        newproduct = productname.map(num => num);
+        // for (i = 0; i <= 4; i++) {
+        //     document.write(newproduct[i].id + "\n");
+        //     document.write(newproduct[i].Product + "\n");
+        //     document.write(newproduct[i].Price + "\n");
+        //     document.write(newproduct[i].Rating + '<br>');
+        // }
+
+        function getInput() {
+            inputText = document.getElementById("input").value;
+
+            for (j = 0; j <= newproduct.length; j++) {
+                if (inputText == newproduct[j].Product) {
+                    document.write(newproduct[j].Product + "\n");
+                    document.write(newproduct[j].Price + "\n");
+                    document.write(newproduct[j].Rating + '<br>');
+                }
+            }
+
+            // document.getElementById("output").innerHTML = inputText;
+            // document.write(newproduct.length);
+
+        }
+    </script>
+
+
+    <!-- <script>
+        arr = [1, 2, 3]
+
+        new_arr = arr.map(item => item);
+        document.write(new_arr);
+    </script> -->
+</head>
+
+
+<body>
+    <input type="text" id="input">
+    <button type="submit" onclick="getInput()">Search</button>
+    <p id="output"></p>
+</body>
+
+</html>
+
+
+
+
+<!-- <script>
+    productname = [{
+        "id": 1,
+        "Product": "boot",
+        "Price": 2000,
+        "Rating": 3.5,
+
+    }, {
+        "id": 2,
+        "Product": "futsalball",
+        "Price": 1000,
+        "Rating": 4
+    }, {
+        "id": 3,
+        "Product": "cricketball",
+        "Price": 150,
+        "Rating": 3.5
+    }, {
+        "id": 4,
+        "Product": "dumbell",
+        "Price": 2000,
+        "Rating": 3.5,
+    }]
+
+    newproduct = productname.map(num => num);
+    for (i = 0; i <= 4; i++) {
+        document.write(newproduct[i].id + "\n");
+        document.write(newproduct[i].Product + "\n");
+        document.write(newproduct[i].Price + "\n");
+        document.write(newproduct[i].Rating + '<br>');
+    }
+</script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <style>
+    th {
+        border: 2px solid red;
+        width: 100px;
+    }
+</style>
+</head>
+
+<body>
+<table>
+    <tr>
+        <th>id</th>
+        <th>product</th>
+        <th>price</th>
+        <th>rating</th>
+    </tr>
+</table>
+<script>
+    const productname = [{
+        "id": 1,
+        "Product": "boot",
+        "Price": 2000,
+        "Rating": 3.5,
+
+    }, {
+        "id": 2,
+        "Product": "futsalball",
+        "Price": 1000,
+        "Rating": 4
+    }, {
+        "id": 3,
+        "Product": "cricketball",
+        "Price": 150,
+        "Rating": 3.5
+    }, {
+        "id": 4,
+        "Product": "dumbell",
+        "Price": 2000,
+        "Rating": 3.5,
+    }]
+    productname.map((num) =>
+        document.write(`
+                       <table>
+                        <tr>
+                        <th>${num.id}</th>
+                        <th>${num.Product}</th>
+                        <th>${num.Price}</th>
+                        <th>${num.Rating}</th>
+                        </tr>
+                    </table>
+                                    `))
+</script>
+</table> -->

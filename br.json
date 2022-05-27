@@ -1,0 +1,28 @@
+[{
+        "id": 1,
+        "Product": "boot",
+        "Price": 2000,
+        "Rating": 3.5
+
+    },
+    {
+        "id": 2,
+        "Product": "futsalball",
+        "Price": 1000,
+        "Rating": 4
+    },
+    {
+        "id": 3,
+        "Product": "cricketball",
+        "Price": 150,
+        "Rating": 3.5
+
+    },
+    {
+        "id": 4,
+        "Product": "dumbell",
+        "Price": 2000,
+        "Rating": 3.5
+
+    }
+]
